@@ -1,0 +1,114 @@
+[
+  {
+    "ContainingType": "Infrastructure.Presentation.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Infrastructure.Presentation.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/user-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VictoriaIdentityProvider.Application.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Infrastructure.Presentation.Controllers.AuthController",
+    "Method": "LogoutUserAsync",
+    "RelativePath": "api/Auth/user-logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Infrastructure.Presentation.Controllers.AuthController",
+    "Method": "LogoutUserFromAllSessionsAsync",
+    "RelativePath": "api/Auth/user-logout-all",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Infrastructure.Presentation.Controllers.RegistrationController",
+    "Method": "ConfirmEmailAddress",
+    "RelativePath": "api/Registration/email-confirmation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Infrastructure.Presentation.Controllers.RegistrationController",
+    "Method": "ResendConfirmationEmail",
+    "RelativePath": "api/Registration/resend-confirmation-link",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailAddress",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Infrastructure.Presentation.Controllers.RegistrationController",
+    "Method": "RegisterUserAsync",
+    "RelativePath": "api/Registration/user-register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VictoriaIdentityProvider.Application.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Infrastructure.Presentation/Infrastructure.Presentation.csproj" Id="3b2ae4fb-0f95-489e-979a-89120e2dce14" />
+  <Project Path="VictoriaIdentityProvider.Api/VictoriaIdentityProvider.Api.csproj" />
+  <Project Path="VictoriaIdentityProvider.Application/VictoriaIdentityProvider.Application.csproj" />
+  <Project Path="VictoriaIdentityProvider.Domain/VictoriaIdentityProvider.Domain.csproj" />
+  <Project Path="VictoriaIdentityProvider.Infrastructure/VictoriaIdentityProvider.Infrastructure.csproj" />
+  <Project Path="VictoriaIdentityProvider.Tests/VictoriaIdentityProvider.Tests.csproj" />
+</Solution>
